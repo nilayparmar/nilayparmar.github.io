@@ -1,0 +1,80 @@
+*{box-sizing: border-box;
+}
+
+/* Global Backgrounds, Colors, and Widths */
+
+body{
+    background-color: #6B2020;
+}
+
+header, ul, #content-wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+div h2{
+    color: white;
+}
+
+form{
+    color: white;
+}
+
+/* Logo */
+
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+header{
+    position: relative;
+    color: white;
+}
+
+header h1 , nav /* Descendant */{
+    padding-left: 50px;
+}
+
+
+/* Nav Bar */
+
+nav{
+    background-color: black;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: green;
+    color: white;
+}
+
+/* Table color change */
+table{
+    color: white;
+}
+
+section img{
+    padding-top: 50px;
+}
