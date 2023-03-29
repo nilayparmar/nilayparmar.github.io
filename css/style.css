@@ -27,6 +27,10 @@ form{
     color: white;
 }
 
+a{
+    color: white;
+}
+
 /* Logo */
 
 #logo{
@@ -70,11 +74,9 @@ nav a:hover{
     color: white;
 }
 
-/* Table color change */
-table{
-    color: white;
-}
+/* Section Images */
 
-section img{
+div img{
+    
     padding-top: 50px;
 }
