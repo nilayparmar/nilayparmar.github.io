@@ -1,3 +1,6 @@
+/* For CSS I used certain 
+concept from the sustain website we created in class*/
+
 *{box-sizing: border-box;
 }
 
@@ -16,7 +19,7 @@ header, ul, #content-wrapper{
 
 p{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 div h2{
@@ -67,6 +70,7 @@ nav a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 25px;
 }
 
 nav a:hover{
